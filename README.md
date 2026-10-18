@@ -1,5 +1,18 @@
 # void-playground
 
+Application code lives in `src/`, configured with `sourceDir` in `void.config.ts`:
+
+```text
+src/
+  db/
+    schema.ts
+    migrations/
+  routes/
+    api/posts.ts
+  demo.ts
+  index.ts
+```
+
 To install dependencies:
 
 ```bash
