@@ -10,7 +10,6 @@ src/
   routes/
     api/posts.ts
   demo.ts
-  index.ts
 ```
 
 To install dependencies:
