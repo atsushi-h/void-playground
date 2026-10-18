@@ -5,7 +5,14 @@
   "module": "index.ts",
   "scripts": {
     "dev": "vp dev",
-    "build": "vp build"
+    "build": "vp build",
+    "lint": "vp lint",
+    "lint:fix": "vp lint --fix",
+    "fmt": "vp fmt",
+    "fmt:check": "vp fmt --check",
+    "typecheck": "void prepare && tsc --noEmit",
+    "check": "vp check && bun run typecheck",
+    "check:fix": "vp check --fix && bun run typecheck"
   },
   "devDependencies": {
     "@types/bun": "latest",
